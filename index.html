@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bujji – Smart Sleep Mode</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: black;
+        color: white;
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+      header {
+        padding: 6rem 2rem;
+        background: linear-gradient(135deg, #1e1e2f, #000);
+        text-align: center;
+      }
+      header h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        max-width: 800px;
+        margin: auto;
+      }
+      header p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #ccc;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 2rem;
+        background: white;
+        color: black;
+        font-weight: 600;
+        padding: 1rem 2.5rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 9999px;
+        transition: background 0.3s ease;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background: #ccc;
+      }
+      .features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 4rem 2rem;
+        max-width: 1100px;
+        margin: auto;
+      }
+      .feature {
+        background: #111;
+        border: 1px solid #333;
+        border-radius: 2rem;
+        padding: 2rem;
+        box-shadow: 0 4px 40px rgba(128, 90, 213, 0.15);
+      }
+      .feature h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #b794f4;
+      }
+      .feature p {
+        color: #ccc;
+        font-size: 1.1rem;
+      }
+      .why {
+        padding: 4rem 2rem;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+      }
+      .why h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      .why p {
+        color: #aaa;
+        font-size: 1.2rem;
+      }
+      .why-container {
+        display: grid;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+      .why-box {
+        background: #1a1a1a;
+        border: 1px solid #333;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        color: #eee;
+        font-size: 1.2rem;
+        box-shadow: 0 0 20px rgba(128, 90, 213, 0.1);
+      }
+      footer {
+        padding: 2rem;
+        text-align: center;
+        color: #777;
+        border-top: 1px solid #222;
+        margin-top: 3rem;
+      }
+      @media (min-width: 768px) {
+        .features {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        header h1 {
+          font-size: 4.5rem;
+        }
+        .why-container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sleep Peacefully. Wake Only for What Truly Matters.</h1>
+      <p>
+        Bujji is a revolutionary sleep assistant that filters your calls with
+        intelligence and care.
+      </p>
+      <button class="btn">Join Waitlist</button>
+    </header>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Auto Sleep Mode</h3>
+        <p>
+          Enable sleep mode with one tap. Bujji takes over and lets your rest
+          begin.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Smart Caller Prompt</h3>
+        <p>
+          Callers hear: "I'm sleeping. Press any key if it's urgent." Only
+          urgent calls ring through.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Emergency Wake-up</h3>
+        <p>
+          If a caller presses a key, Bujji overrides silence and wakes your
+          phone instantly.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Privacy by Design</h3>
+        <p>
+          All detection runs on-device. No audio is recorded, sent, or stored.
+          100% private.
+        </p>
+      </div>
+    </section>
+
+    <section class="why">
+      <h2>Why Choose Bujji?</h2>
+      <p>
+        Because Do Not Disturb is outdated. Bujji respects your rest and your
+        life.
+      </p>
+      <div class="why-container">
+        <div class="why-box">
+          Designed for nappers, night-shift warriors, and deep sleepers.
+        </div>
+        <div class="why-box">Detects emergencies without compromise.</div>
+        <div class="why-box">Simple, elegant, and human-first.</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 Bujji. Built for peaceful sleep, reimagined for the future.
+      </p>
+    </footer>
+  </body>
+</html>
